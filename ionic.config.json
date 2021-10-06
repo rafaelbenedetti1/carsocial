@@ -1,0 +1,7 @@
+{
+  "name": "carsocial",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
