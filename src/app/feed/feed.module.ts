@@ -8,6 +8,8 @@ import { FeedPageRoutingModule } from './feed-routing.module';
 
 import { FeedPage } from './feed.page';
 
+import { MenuController } from '@ionic/angular';
+
 @NgModule({
   imports: [
     CommonModule,

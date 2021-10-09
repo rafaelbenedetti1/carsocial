@@ -1,11 +1,23 @@
 <ion-header>
   <ion-toolbar class="tab-bar-sub" color="primary">
       <ion-buttons slot="start">
-          <ion-label>CarSocial</ion-label>   
+        <ion-button (click)="toggleMenu()"menuId="custom" contentId="main" class="my-custom-menu">
+          <ion-icon slot="icon-only" name="menu"></ion-icon>
+        </ion-button>
+        <ion-menu-button side="start" menuId="custom" contentId="main" class="my-custom-menu">
+          <ion-header>
+            <ion-toolbar color="tertiary">
+            </ion-toolbar>
+          </ion-header>
+
+        </ion-menu-button>
+          <ion-label>CarSocial</ion-label>
       </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
+<!-- todo o menu ta em tabs/app.component.html -->
+<!-- ctrl+k  ctrl+u para comentar um bloco -->
 <ion-content>
   <ion-card class="card"> 
       <ion-item>
