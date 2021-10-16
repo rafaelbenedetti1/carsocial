@@ -1,0 +1,85 @@
+ion-content {
+    --background: url(../../../assets/img/fundoazul.jpg);
+    position: relative;
+    height: 100%;
+    width: 100%;
+}      
+
+ion-toolbar {
+    --background: transparent;
+}
+
+ion-item {
+    --background: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.logo {
+    margin-top: 10px;
+    height: 300px;
+
+    p{
+        text-align: center;
+    }
+    
+}
+
+.card {
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 160px;
+    width: 100%;
+
+}
+
+.card-body {
+    background-color: #f2f2f2;
+    height: calc(100vh - (200px));
+    overflow: hidden;
+
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+
+    .email{
+        border-radius: 40px;
+        padding-left: 30px;
+        padding-right: 30px;  
+        margin-top: 60px;
+    }
+
+    .senha{
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 20px;
+
+    }
+    
+
+    .botao{
+        margin-top: 35px;
+        padding-left: 100px;
+        padding-right: 100px;  
+        font-weight: 600;
+    }
+
+    .Login {
+        padding-top: 40px;
+
+        .fonteLogin{
+            font-size: 24px;
+            font-weight: 600;
+            color: #5b5f62;
+        }
+
+        .nickname {
+            font-size: 90%;
+            color: #949ea6;
+            text-transform: uppercase;
+            margin: 0 auto;
+            padding-bottom: 20px;
+        }
+    }
+}
+

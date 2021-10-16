@@ -9,24 +9,15 @@ const routes: Routes = [
     children: [
       {
         path: 'feed',
-        loadChildren: () => import('../feed/feed.module').then(m => m.FeedPageModule)
+        loadChildren: () => import('../pages/feed/feed.module').then(m => m.FeedPageModule)
       },
       {
         path: 'tabPerfil',
-        loadChildren: () => import('../perfil/perfil.module').then( m => m.PerfilPageModule)
+        loadChildren: () => import('../pages/perfil/perfil.module').then( m => m.PerfilPageModule)
     },
-      {
-        path: '',
-        redirectTo: '/tabs/feed',
-        pathMatch: 'full'
-      }
     ]
   },
-  {
-    path: '',
-    redirectTo: '/tabs/feed',
-    pathMatch: 'full'
-  }
+
 ];
 
 @NgModule({
