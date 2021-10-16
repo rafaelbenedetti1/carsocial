@@ -2,6 +2,7 @@ import {  OnInit } from '@angular/core';
 import { MenuController } from '@ionic/angular';
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-feed',
   templateUrl: './feed.page.html',
@@ -9,7 +10,7 @@ import { Component } from '@angular/core';
 })
 export class FeedPage implements OnInit {
 
-  constructor() { }
+  constructor( private menuCtrl: MenuController) { }
 
   ngOnInit() {
   } 

@@ -1,8 +1,15 @@
 ion-content {
-    --background: url(../../assets/img/plano-de-fundo-galaxia-fun.jpg) no-repeat center center fixed, #fff;
+    --background: url(../../../assets/img/plano-de-fundo-galaxia-fun.jpg) no-repeat center center fixed, #fff;
     position: relative;
     height: 100%;
     width: 100%;
+}
+ion-button{
+    --background: linear-gradient(
+        90deg,
+        rgba(250, 87, 142, 1) 0%
+        rgba(254, 171, 142, 1) 100%
+    );
 }      
 
 ion-toolbar {
@@ -13,7 +20,7 @@ ion-toolbar {
     margin: 0 auto;
     border-radius: 10px;
 
-    .header {
+    .headercard {
         height: 200px;
 
         .avatar {
