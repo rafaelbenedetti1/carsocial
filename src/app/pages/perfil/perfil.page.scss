@@ -4,13 +4,7 @@ ion-content {
     height: 100%;
     width: 100%;
 }
-ion-button{
-    --background: linear-gradient(
-        90deg,
-        rgba(250, 87, 142, 1) 0%
-        rgba(254, 171, 142, 1) 100%
-    );
-}      
+
 
 ion-toolbar {
     --background: transparent;
@@ -20,7 +14,7 @@ ion-toolbar {
     margin: 0 auto;
     border-radius: 10px;
 
-    .headercard {
+    .header {
         height: 200px;
 
         .avatar {
