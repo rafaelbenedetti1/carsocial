@@ -20,6 +20,10 @@ const routes: Routes = [
         loadChildren: () => import('../cadastro/cadastro.module').then( m => m.CadastroPageModule)
       },
       {
+        path: 'recuperar-senha',
+        loadChildren: () => import('../recuperar-senha/recuperar-senha.module').then( m => m.RecuperarSenhaPageModule)
+      },
+      {
         path: '',
         redirectTo: '/tabs/feed',
         pathMatch: 'full'
