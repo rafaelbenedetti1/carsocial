@@ -34,8 +34,8 @@ ion-item {
 
 .card-body {
     background-color: #f2f2f2;
-   // height: calc(100vh - (180px));
-    height: 600px;
+    //height: calc(100vh - (180px));
+    height: 900px;
     overflow: hidden;
 
     border-top-right-radius: 40px;
@@ -45,7 +45,7 @@ ion-item {
         border-radius: 40px;
         padding-left: 30px;
         padding-right: 30px;
-        margin-top: 60px;
+        margin-top: 20px;
     }
 
     .senha{
@@ -72,7 +72,70 @@ ion-item {
         padding-left: 30px;
         padding-right: 30px;
         margin-top: 20px;
+    }
 
+    .modificacoes_do_carro{
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 20px;
+    }
+
+    .nome{
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 20px;
+    }
+
+    .ano_carro{
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 20px;
+    }
+
+    .telefone{
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 20px;
+    }
+
+    .modelo_carro{
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 20px;
+    }
+
+    .ano_carro{
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 20px;
+    }
+
+    .telefone{
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 20px;
+    }
+    
+    .Modificacoes_do_carro{
+        border-top-right-radius: 40px;
+        border-top-left-radius: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 20px;
     }
 
 
