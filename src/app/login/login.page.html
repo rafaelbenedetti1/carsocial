@@ -9,17 +9,17 @@
         </div>
 
       <ion-item class="email" lines="none">
-        <ion-input type="email" placeholder="E-mail"></ion-input>
+        <ion-input type="email" placeholder="Email" [(ngModel)]="Email"></ion-input>
       </ion-item>
 
       <ion-item class="senha" lines="none">
-        <ion-input type="password" placeholder="Senha"></ion-input>
+        <ion-input type="password" placeholder="Senha" [(ngModel)]="Password"></ion-input>
       </ion-item>
 
-      <ion-button class="botao" click="login()" color="primary" expand="block">
+      <ion-button  class="botao" (click)="login()" color="primary" expand="block">
         Login
       </ion-button>
-      <a class="link" href="http://localhost:8100/tabs/cadastro" color="primary">Cadastre-se</a> 
+      <a class="link" href="http://localhost:8100/cadastro" color="primary">Cadastre-se</a> 
     </div>
   </div>
 </ion-content>

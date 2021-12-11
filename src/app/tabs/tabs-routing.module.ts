@@ -15,24 +15,11 @@ const routes: Routes = [
         path: 'tabPerfil',
         loadChildren: () => import('../perfil/perfil.module').then( m => m.PerfilPageModule)
       },
-      {
-        path: 'cadastro',
-        loadChildren: () => import('../cadastro/cadastro.module').then( m => m.CadastroPageModule)
-      },
-      {
-        path: 'recuperar-senha',
-        loadChildren: () => import('../recuperar-senha/recuperar-senha.module').then( m => m.RecuperarSenhaPageModule)
-      },
-      {
-        path: '',
-        redirectTo: '/tabs/feed',
-        pathMatch: 'full'
-      }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/feed',
+    redirectTo: '/login',
     pathMatch: 'full'
   }
 ];
