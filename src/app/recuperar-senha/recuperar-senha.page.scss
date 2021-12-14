@@ -10,7 +10,7 @@ ion-toolbar {
 }
 
 ion-item {
-    --background: rgb(78, 77, 77);
+    --background: #ffffff;
     border-radius: 20px;
 }
 
@@ -42,25 +42,25 @@ ion-item {
     border-top-left-radius: 40px;
 
     .email{
-        border-radius: 40px;
+        border-radius: 20px;
         padding-left: 30px;
         padding-right: 30px;
         margin-top: 60px;
     }
  
     .botaoRecuperar{
-        margin-top: 30px;
-        width:110px;
-        height:30px;
-        margin-left: 64px;
-        font-weight: 100px;
-        white-space: 100%; 
+        margin-top: 35px;
+        margin-bottom: 35px;
+        padding-left: 75px;
+        padding-right: 10px;
+        font-weight: 600;
     }
     .botaoCancelar{
-        margin-left: 30px;
-        margin-top: 30px;
-        width:110px;
-        height:30px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: 600;
     }
   
     .Login {

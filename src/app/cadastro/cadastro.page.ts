@@ -44,6 +44,8 @@ export class CadastroPage implements OnInit {
   cadastro() {
     this.authRef.auth.createUserWithEmailAndPassword(this.Email, this.Password).then(data => {
       this.toast("Cadastro efetuado com sucesso!");
+      alert("Cadastro efetuado com sucesso!")
+
       localStorage.setItem("PS:USER_INFO", JSON.stringify(data.user));
 
       this.router.navigate(['/login']);
@@ -51,6 +53,7 @@ export class CadastroPage implements OnInit {
     error => {
       console.log(error);
       this.alert("Erro", "Informações incorretas!");
+      alert("Credenciais incorretas!")
     });
   }
 }

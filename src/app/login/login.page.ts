@@ -48,7 +48,7 @@ export class LoginPage implements OnInit {
   logout() {
     console.log("Saindo");
     this.authRef.auth.signOut().then((val) => {
-      alert("user logout")
+      alert("Logout efetuado com sucesso")
     })
   }
 
