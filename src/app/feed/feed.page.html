@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header>                                                                                       
   <ion-toolbar class="tab-bar-sub" color="primary">
       <ion-buttons slot="start">
         <ion-button (click)="toggleMenu()"menuId="custom" contentId="main" class="my-custom-menu">
@@ -9,10 +9,24 @@
   </ion-toolbar>
 </ion-header>
 
+<ion-header>                                                                                       
+  <ion-toolbar class="tab-bar-sub" color="primary">
+          <ion-icon slot="icon-only" name="menu"></ion-icon>
+          <textarea rows="4" cols="44" maxlength="500" placeholder="Descreva suas modificações."></textarea>
+        <ion-button class="btnPostar">Postar</ion-button>
+        <ion-button class="btnCancelar">Cancelar</ion-button>
+  </ion-toolbar>
+</ion-header>
+
+
+
+
 <!-- todo o menu ta em tabs/app.component.html -->
 <!-- ctrl+k  ctrl+u para comentar um bloco -->
 <ion-content>
   <ion-card class="card"> 
+       
+        
       <ion-item>
           <ion-avatar slot="start">
               <img src="assets/img/user.png">
@@ -29,9 +43,9 @@
       </ion-card-content>
       <img src="./assets/img/subaro.png" height="250" width="400">
       <ion-card-content class="button">
-          <ion-button size="small" fill="outline" slot="end">Curtir</ion-button>
-          <ion-button size="small" fill="outline" slot="end">Comentar</ion-button>
-          <ion-button size="small" fill="outline" slot="end">Compartilhar</ion-button>
+          <ion-button class="btnCurtir" size="small" fill="outline" slot="end">Curtir</ion-button>
+          <ion-button class="btnComentar" size="small" fill="outline" slot="end">Comentar</ion-button>
+          <ion-button class="btnCompartilhar" size="small" fill="outline" slot="end">Compartilhar</ion-button>
 
       </ion-card-content>
     </ion-card>
@@ -53,9 +67,9 @@
       </ion-card-content>
       <img src="./assets/img/audis3.png" height="250" width="400">
       <ion-card-content>
-        <ion-button size="small" fill="outline" slot="end">Curtir</ion-button>
-        <ion-button size="small" fill="outline" slot="end">Comentar</ion-button>
-        <ion-button size="small" fill="outline" slot="end">Compartilhar</ion-button>
+        <ion-button class="btnCurtir" size="small" fill="outline" slot="end">Curtir</ion-button>
+        <ion-button class="btnComentar"  size="small" fill="outline" slot="end">Comentar</ion-button>
+        <ion-button class="btnCompartilhar"  size="small" fill="outline" slot="end">Compartilhar</ion-button>
 
       </ion-card-content>
     </ion-card>
@@ -78,9 +92,9 @@
       </ion-card-content>
       <img src="./assets/img/subaro.png" class="img">
       <ion-card-content>
-        <ion-button size="small" fill="outline" slot="end">Curtir</ion-button>
-        <ion-button size="small" fill="outline" slot="end">Comentar</ion-button>
-        <ion-button size="small" fill="outline" slot="end">Compartilhar</ion-button>
+        <ion-button class="btnCurtir" size="small" fill="outline" slot="end">Curtir</ion-button>
+        <ion-button class="btnComentar" size="small" fill="outline" slot="end">Comentar</ion-button>
+        <ion-button class="btnCompartilhar" size="small" fill="outline" slot="end">Compartilhar</ion-button>
 
       </ion-card-content>
     </ion-card>
