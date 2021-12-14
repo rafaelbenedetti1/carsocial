@@ -45,10 +45,18 @@ export class LoginPage implements OnInit {
     this.authRef.auth.createUserWithEmailAndPassword(this.Email, this.Password);
   }
 
+  logout() {
+    console.log("Saindo");
+    this.authRef.auth.signOut().then((val) => {
+      alert("user logout")
+    })
+  }
+
   login(){
     console.log("Entrando");
     this.authRef.auth.signInWithEmailAndPassword(this.Email, this.Password).then(data => {
       this.toast("Login efetuado com sucesso!");
+      alert("Login efetuado com sucesso!")
       localStorage.setItem("PS:USER_INFO", JSON.stringify(data.user));
 
       this.router.navigate(['tabs/feed']);
